@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\DAW2 - Ivan Ortiga Aguilar\Mauri - App\.metadata\.plugins\org.eclipse.jdt.core
+356374187.index
