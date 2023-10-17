@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"javadoc2","c":"Circulo","l":"calcularArea()"},{"p":"javadoc2","c":"Circulo","l":"Circulo(double)","u":"%3Cinit%3E(double)"}];updateSearchResults();
