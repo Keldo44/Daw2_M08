@@ -1,0 +1,158 @@
+package javadoc;
+/**
+ * Clase principal que representa a un empleado.
+ *
+ * @author [Tu nombre]
+ * @version 1.0
+ * @since 2023-10-17
+ */
+public class Empleado {
+
+    /**
+     * Nombre del empleado.
+     */
+    private String nombre;
+
+    /**
+     * Apellidos del empleado.
+     */
+    private String apellidos;
+
+    /**
+     * Edad del empleado.
+     */
+    private int edad;
+
+    /**
+     * Puesto del empleado.
+     */
+    private String puesto;
+
+    /**
+     * Crea un nuevo objeto de la clase `Empleado`.
+     *
+     * @param nombre Nombre del empleado.
+     * @param apellidos Apellidos del empleado.
+     * @param edad Edad del empleado.
+     * @param puesto Puesto del empleado.
+     */
+    public Empleado(String nombre, String apellidos, int edad, String puesto) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.edad = edad;
+        this.puesto = puesto;
+    }
+
+    /**
+     * Devuelve el nombre del empleado.
+     *
+     * @return Nombre del empleado.
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * Establece el nombre del empleado.
+     *
+     * @param nombre Nuevo nombre del empleado.
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * Devuelve los apellidos del empleado.
+     *
+     * @return Apellidos del empleado.
+     */
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    /**
+     * Establece los apellidos del empleado.
+     *
+     * @param apellidos Nuevos apellidos del empleado.
+     */
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    /**
+     * Devuelve la edad del empleado.
+     *
+     * @return Edad del empleado.
+     */
+    public int getEdad() {
+        return edad;
+    }
+
+    /**
+     * Establece la edad del empleado.
+     *
+     * @param edad Nueva edad del empleado.
+     */
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    /**
+     * Devuelve el puesto del empleado.
+     *
+     * @return Puesto del empleado.
+     */
+    public String getPuesto() {
+        return puesto;
+    }
+
+    /**
+     * Establece el puesto del empleado.
+     *
+     * @param puesto Nuevo puesto del empleado.
+     */
+    public void setPuesto(String puesto) {
+        this.puesto = puesto;
+    }
+
+    /**
+     * Devuelve una representación en cadena del empleado.
+     *
+     * @return Representación en cadena del empleado.
+     */
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", edad=" + edad +
+                ", puesto='" + puesto + '\'' +
+                '}';
+    }
+}
+
+/**
+ * Clase que hereda de la clase `Empleado`.
+ *
+ * @author [Tu nombre]
+ * @version 1.0
+ * @since 2023-10-17
+ */
+public class Gerente extends Empleado {
+
+    /**
+     * Salario del gerente.
+     */
+    private double salario;
+
+    /**
+     * Crea un nuevo objeto de la clase `Gerente`.
+     *
+     * @param nombre Nombre del gerente.
+     * @param apellidos Apellidos del gerente.
+     * @param edad Edad del gerente.
+     * @param puesto Puesto del gerente.
+     * @param salario Salario del gerente.
+     */
+    public Gerente(String nombre, String apellidos, int edad, String puesto, double salario) {
+        super(nombre
