@@ -1,0 +1,31 @@
+# Doxygen configuration file for the `script` example
+
+# The name of the project
+PROJECT_NAME = Script
+
+# The output directory
+OUTPUT_DIRECTORY = doc
+
+# The input files
+INPUT = script.cpp
+
+# The header files
+INCLUDE_PATH = include
+
+# The list of modules to document
+MODULES =
+
+# The list of files to document
+FILES =
+
+# The list of directories to document
+DIRECTORIES =
+
+# The list of files to exclude from the documentation
+EXCLUDE =
+
+# The list of modules to exclude from the documentation
+EXCLUDE_FROM_DOC =
+
+# The list of files to exclude from the documentation
+EXCLUDE_FROM_DOC =
